@@ -1,0 +1,18 @@
+import os
+import sys
+from pathlib import Path
+
+# Add the project root to Python path
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root))
+
+from src.storage import Storage
+
+def migrate_tasks():
+    storage = Storage()
+    tasks = storage.load_tasks()
+    storage.save_tasks(tasks)  # This will save with the new fields
+    print(f"Successfully migrated {len(tasks)} tasks")
+
+if __name__ == "__main__":
+    migrate_tasks()

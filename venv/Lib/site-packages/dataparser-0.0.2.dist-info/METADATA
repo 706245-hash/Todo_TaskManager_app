@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dataparser
+Version: 0.0.2
+Summary: A simple data storing file writer using JSON
+Home-page: https://github.com/GearFox98/dataparser
+Author: GearFox98
+Author-email: riveroluismanuel9@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/GearFox98/dataparser/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# dataparser
+Simple data storing file writer using JSON
+
+Dataparser reads and writes JSON files into specified locations,
+it takes dictionaries and returns them, it also can return a part of the data stored
+using simple filters
+
+## Known issues
+- The path must exist on drive, the file is authomatically created
+
+
