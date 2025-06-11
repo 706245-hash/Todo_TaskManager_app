@@ -7,7 +7,7 @@ class AIAssistant:
     
     def __init__(self):
         load_dotenv()
-        openai.api_key = os.getenv("OPENAI_API_KEY")  # Fixed security vulnerability
+        openai.api_key = os.getenv("OPENAI_API_KEY") 
         self.prompt = """
         You are an expert productivity assistant. The user has a to-do list with these tasks:
         {tasks}
