@@ -3,7 +3,9 @@
 **Professional Task Management System with AI Integration**
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+![ToDo CLI Screenshot](todopic.PNG) 
 
 ## Overview
 A sophisticated task management system that combines traditional to-do list functionality with AI-powered features. This application helps professionals manage tasks efficiently through a CLI interface with voice control capabilities, natural language processing, and productivity insights.
@@ -11,7 +13,7 @@ A sophisticated task management system that combines traditional to-do list func
 ## Key Features
 
 ### 🧠 AI-Powered Productivity
-- **Auto-Categorization**: AI assigns categories to new tasks using GPT-3.5
+- **Auto-Categorisation**: AI assigns categories to new tasks using GPT-3.5
 - **Predictive Time Estimates**: Forecasts task completion time based on historical data
 - **Habit Analysis**: Identifies productivity patterns using statistical analysis
 
