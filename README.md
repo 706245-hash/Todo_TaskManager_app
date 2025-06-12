@@ -3,6 +3,7 @@
 **Professional Task Management System with AI Integration**
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ![ToDo CLI Screenshot](todopic.PNG) 
 
