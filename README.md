@@ -12,7 +12,7 @@ A sophisticated task management system that combines traditional to-do list func
 ## Key Features
 
 ### 🧠 AI-Powered Productivity
-- **Auto-Categorization**: AI assigns categories to new tasks using GPT-3.5
+- **Auto-Categorisation**: AI assigns categories to new tasks using GPT-3.5
 - **Predictive Time Estimates**: Forecasts task completion time based on historical data
 - **Habit Analysis**: Identifies productivity patterns using statistical analysis
 
