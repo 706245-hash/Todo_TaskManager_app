@@ -4,6 +4,7 @@
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 
+![ToDo CLI Screenshot](todopic.PNG) 
 
 ## Overview
 A sophisticated task management system that combines traditional to-do list functionality with AI-powered features. This application helps professionals manage tasks efficiently through a CLI interface with voice control capabilities, natural language processing, and productivity insights.
