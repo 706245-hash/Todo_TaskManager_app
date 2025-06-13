@@ -28,7 +28,7 @@ A sophisticated task management system that combines traditional to-do list func
 - Priority levels (High/Medium/Low) with color-coding
 - Custom categories and tags
 - Due dates with overdue highlighting
-- Detailed productivity statistics and visualizations
+- Detailed productivity statistics and visualisations
 - CSV export functionality
 
 ### 🔍 Smart Search & NLP
@@ -50,3 +50,24 @@ graph TD
     B --> F[AI Assistant]
     F --> G[OpenAI API]
     E --> H[Speech Recognition]
+```
+
+## Core Components
+
+1. Task Management Engine (app.py)
+    - CRUD operations for tasks
+    - Statistical analysis and reporting
+    - Predictive time estimation algorithm
+2. AI Integration (ai_assistant.py)
+    - GPT-3.5 powered suggestions
+    - Automatic task categorisation
+3. Voice Control (voice_interface.py)
+    - Speech-to-text command processing
+    - Background listening thread
+4. Natural Language Processing (nlp_processor.py)
+    - Date/time extraction
+    - Priority detection
+    - Command parsing
+5. Persistent Storage (storage.py)
+    - JSON-based task storage
+    - Datetime serialisation/deserialisation
