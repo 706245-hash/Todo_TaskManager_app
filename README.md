@@ -71,3 +71,47 @@ graph TD
 5. Persistent Storage (storage.py)
     - JSON-based task storage
     - Datetime serialisation/deserialisation
+  
+## Installation
+```bash
+# Clone repository
+git clone https://github.com/706245-hash/Ultimate_To-Do_List_Manager.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python main.py
+```
+## Usage Example
+```text
+=== ULTIMATE TO-DO LIST MANAGER ===
+1. Add Task
+2. View Tasks
+3. Edit Task
+4. Toggle Complete
+5. Delete Task
+6. Search/Filter Tasks
+7. View Statistics
+8. Export to CSV
+9. Exit
+v. Voice Control
+
+Enter choice: 1
+Enter task: Prepare quarterly report due next Monday high priority
+
+✓ Added: Prepare quarterly report
+  Due: 2023-12-18
+  Priority: high
+  Category: Work
+  Predicted time: 2h 15m
+```
+## Technology Stack
+- Core Language: Python 3.8+
+- Libraries:
+    - speech_recognition for voice interface
+    - pyttsx3 for text-to-speech
+    - dateparser for NLP date handling
+    - scikit-learn for predictive analytics
+- AI Services: OpenAI GPT-3.5 API
+- Data Storage: JSON format with custom serialisation
